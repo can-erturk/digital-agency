@@ -34,7 +34,7 @@ const toggleSidebar = () => {
 
       <!-- Sidebar toggle -->
       <div class="sidebar-toggle" @click="toggleSidebar">
-        <i class="fi fi-br-menu-burger"></i>
+        <i class="fi fi-rr-menu-burger"></i>
       </div>
     </div>
   </header>
@@ -124,7 +124,7 @@ header .sidebar-toggle {
     height: 3.5rem !important;
   }
 
-  header .header-logo img{
+  header .header-logo img {
     height: 1.25rem;
   }
 }
