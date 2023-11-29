@@ -1,6 +1,7 @@
 <script setup>
 import GlobalNavigation from '@/components/__common__/GlobalNavigation.vue'
 import { ref } from 'vue'
+import { useSidebarStore } from '@/stores/sidebar'
 
 const isSticky = ref(false)
 
@@ -9,6 +10,12 @@ window.addEventListener('scroll', () => {
   // If the scrollY is less than 10px, then set isSticky to false
   isSticky.value = window.scrollY > 150 ? true : window.scrollY < 10 ? false : isSticky.value
 })
+
+const sidebar = useSidebarStore()
+
+const toggleSidebar = () => {
+  sidebar.toggle()
+}
 </script>
 
 <template>
@@ -23,6 +30,11 @@ window.addEventListener('scroll', () => {
       <div class="navbar">
         <GlobalNavigation />
         <router-link to="/login" class="navbar-btn">Contact Us</router-link>
+      </div>
+
+      <!-- Sidebar toggle -->
+      <div class="sidebar-toggle" @click="toggleSidebar">
+        <i class="fi fi-br-menu-burger"></i>
       </div>
     </div>
   </header>
@@ -85,6 +97,36 @@ header .container .navbar .navbar-btn {
   margin-left: 1rem;
   font-size: 0.8rem;
   font-weight: 500;
+}
+
+header .sidebar-toggle {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+  position: relative;
+  right: -5px;
+}
+
+@media screen and (max-width: 640px) {
+  header .sidebar-toggle {
+    display: block;
+  }
+
+  header .navbar {
+    display: none !important;
+  }
+
+  header {
+    height: 5rem !important;
+  }
+
+  header.header-sticky {
+    height: 3.5rem !important;
+  }
+
+  header .header-logo img{
+    height: 1.25rem;
+  }
 }
 
 @keyframes fadeInDown {
