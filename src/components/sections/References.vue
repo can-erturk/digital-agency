@@ -22,7 +22,7 @@ export default {
 
 <style scoped>
 .references {
-  padding: 5rem 0;
+  padding-top: 5rem;
 }
 
 h2 {
