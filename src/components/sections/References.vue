@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: 'References',
+  name: 'References'
 }
 </script>
 
@@ -47,6 +47,6 @@ h2 {
 .references-list img {
   height: 2.25rem;
   filter: grayscale(100%);
-  opacity: .3;
+  opacity: 0.3;
 }
 </style>

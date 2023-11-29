@@ -44,7 +44,7 @@ const props = defineProps({
   margin-left: 0.5rem;
   margin-right: -0.25rem;
   position: relative;
-  top: .15rem;
+  top: 0.15rem;
   font-size: 1rem;
 }
 </style>

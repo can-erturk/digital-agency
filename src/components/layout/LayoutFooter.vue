@@ -4,7 +4,7 @@
     <div class="footer-content">
       <div class="container">
         <div class="footer-col company-col">
-          <img src="/logo.svg" alt="" class="footer-logo">
+          <img src="/logo.svg" alt="" class="footer-logo" />
           <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
           <p><b>Hours:</b> 8:00 - 17:00, Mon - Sat</p>
         </div>
@@ -29,7 +29,7 @@
           <h3>Newsletter</h3>
           <p>Subscribe to our newsletter to get our latest news.</p>
           <div class="newsletter">
-            <input type="email" placeholder="Enter email address">
+            <input type="email" placeholder="Enter email address" />
             <button>Subscribe</button>
           </div>
         </div>
@@ -67,7 +67,7 @@ footer {
   width: 100%;
   height: 100%;
   mix-blend-mode: color-burn;
-  opacity: .35;
+  opacity: 0.35;
   background-repeat: no-repeat;
   background-position: -280px;
   background-size: cover;
@@ -81,16 +81,16 @@ footer {
 
 .footer-content .footer-logo {
   filter: invert();
-  opacity: .85;
+  opacity: 0.85;
   margin-bottom: 1.625rem;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 .footer-content p {
   max-width: 18.75rem;
 }
 
-.footer-content p+p {
+.footer-content p + p {
   margin-top: 1.625rem;
 }
 
@@ -121,7 +121,6 @@ footer {
 }
 
 @media screen and (max-width: 728px) {
-
   .footer-content .footer-col.company-col,
   .footer-content .footer-col.newsletter-col {
     width: 100%;
@@ -144,12 +143,12 @@ footer {
 
 .footer-content .footer-col ul li a {
   display: inline-block;
-  padding: .375rem 0;
+  padding: 0.375rem 0;
 }
 
 .newsletter {
   display: flex;
-  gap: .25rem;
+  gap: 0.25rem;
   align-items: center;
   margin-top: 1rem;
   flex-wrap: wrap;
@@ -158,16 +157,16 @@ footer {
 .newsletter input {
   flex-grow: 1;
   height: 2.25rem;
-  padding: .625rem 1rem;
-  border-radius: .375rem;
+  padding: 0.625rem 1rem;
+  border-radius: 0.375rem;
   background-color: #dadbdc;
   min-width: 100px;
 }
 
 .newsletter button {
   height: 2.25rem;
-  padding: .625rem 1rem;
-  border-radius: .375rem;
+  padding: 0.625rem 1rem;
+  border-radius: 0.375rem;
   background-color: var(--brand-color);
   color: #fff;
   cursor: pointer;
@@ -176,8 +175,8 @@ footer {
 .footer-copyright {
   padding: 1.25rem 0;
   text-align: center;
-  background-color: rgba(0, 0, 0, .2);
-  font-size: .875rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: 0.875rem;
 }
 
 .footer-copyright a {

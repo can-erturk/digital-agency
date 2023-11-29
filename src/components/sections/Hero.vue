@@ -1,4 +1,3 @@
-
 <script setup>
 import LinkBtn from '../__common__/PrimaryBtn.vue'
 </script>
@@ -6,16 +5,16 @@ import LinkBtn from '../__common__/PrimaryBtn.vue'
 <template>
   <div class="hero">
     <div class="container">
-
       <div class="hero-content">
         <h1>Transforming Ideas into Reality</h1>
-        <p>Enable highly motivating non-cash micropayments and offer in-demand prepaid solutions.</p>
+        <p>
+          Enable highly motivating non-cash micropayments and offer in-demand prepaid solutions.
+        </p>
         <LinkBtn text="See More" href="/" icon="fi-rr-arrow-small-right" />
         <LinkBtn text="Our Services" href="/" icon="fi-rr-arrow-small-right" />
       </div>
 
       <img src="/hero-image.webp" alt="hero image" class="hero-img" />
-
     </div>
   </div>
 </template>
@@ -38,7 +37,7 @@ import LinkBtn from '../__common__/PrimaryBtn.vue'
   margin-bottom: 10px;
 }
 
-.btn-primary+.btn-primary {
+.btn-primary + .btn-primary {
   margin-left: 0.625rem;
   background-color: transparent;
   color: black;

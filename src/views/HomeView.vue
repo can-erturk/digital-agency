@@ -5,6 +5,6 @@ import References from '@/components/sections/References.vue'
 
 <template>
   <Hero />
-  <References />  
-  <div style="height: 100vh;"></div>
+  <References />
+  <div style="height: 100vh"></div>
 </template>
