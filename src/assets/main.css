@@ -73,3 +73,31 @@ body > :is(header, footer) {
   margin: 0 auto;
   padding: 0 1rem;
 }
+
+h1{
+  font-size: 3rem;
+}
+
+h2{
+  font-size: 2.25rem;
+}
+
+@media screen and (max-width: 1024px) {
+  h1{
+    font-size: 2.5rem;
+  }
+
+  h2{
+    font-size: 1.875rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1{
+    font-size: clamp(1.875rem,6.5dvw,2.5rem);
+  }
+
+  h2{
+    font-size: clamp(1.5rem,5dvw,1.875rem);
+  }
+}
