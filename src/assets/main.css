@@ -76,8 +76,8 @@ body > :is(header, footer) {
 }
 
 section {
-  padding-top: 6rem;
-  padding-bottom: 2rem;
+  padding-top: 8rem;
+  padding-bottom: 4rem;
 }
 
 p {
@@ -121,6 +121,11 @@ h3 {
 
   h3 {
     font-size: 1.125rem;
+  }
+
+  section {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
   }
 }
 
