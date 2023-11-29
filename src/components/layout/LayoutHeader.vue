@@ -2,6 +2,7 @@
 import GlobalNavigation from '@/components/__common__/GlobalNavigation.vue'
 import { ref } from 'vue'
 import { useSidebarStore } from '@/stores/sidebar'
+import LinkBtn from '@/components/__common__/PrimaryBtn.vue'
 
 const isSticky = ref(false)
 
@@ -29,7 +30,7 @@ const toggleSidebar = () => {
       <!-- Navbar -->
       <div class="navbar">
         <GlobalNavigation />
-        <router-link to="/login" class="navbar-btn">Contact Us</router-link>
+        <LinkBtn text="Contact Us" href="/" class="navbar-btn" />
       </div>
 
       <!-- Sidebar toggle -->
@@ -52,6 +53,7 @@ header {
   transition:
     all 0.3s ease-in-out,
     height 0s linear;
+  z-index: 90;
 }
 
 header.header-sticky {
@@ -87,16 +89,7 @@ header .container .navbar a {
 }
 
 header .container .navbar .navbar-btn {
-  background-color: var(--primary-color);
-  color: #fff;
-  border-radius: 0.375rem;
-  padding: 0.55rem 1.25rem 0.7rem 1.25rem;
-  transition: 0.1s background-color ease;
-  text-transform: none;
-  font-weight: initial;
   margin-left: 1rem;
-  font-size: 0.8rem;
-  font-weight: 500;
 }
 
 header .sidebar-toggle {
