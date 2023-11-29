@@ -7,7 +7,7 @@ export default {
 <template>
   <section class="references" id="references">
     <div class="container">
-      <h2>More than 200 companies trusted us worldwide</h2>
+      <h3>More than 200 companies trusted us worldwide</h3>
       <div class="references-list">
         <img src="/references/logoipsum-1.svg" alt="Reference logo" />
         <img src="/references/logoipsum-2.svg" alt="Reference logo" />
@@ -22,12 +22,10 @@ export default {
 
 <style scoped>
 .references {
-  padding-top: 5rem;
+  padding-top: 4.5rem;
 }
 
-h2 {
-  font-size: 1.325rem;
-  font-weight: 500;
+h3 {
   margin-bottom: 2.25rem;
 }
 
