@@ -1,5 +1,5 @@
 <script setup>
-import LinkBtn from '../__common__/PrimaryBtn.vue'
+import LinkBtn from '@/components/__common__/PrimaryBtn.vue'
 </script>
 
 <template>

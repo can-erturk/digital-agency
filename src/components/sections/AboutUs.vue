@@ -1,5 +1,5 @@
 <script setup>
-import PrimaryBtn from '../__common__/PrimaryBtn.vue'
+import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
 </script>
 
 <template>
@@ -133,7 +133,7 @@ a.tab-call-link:hover .tab-call-link-title {
     min-width: 100%;
     height: auto;
   }
-  
+
   .buttons {
     flex-wrap: wrap;
     gap: 0.5rem;

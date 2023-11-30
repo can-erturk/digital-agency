@@ -1,5 +1,7 @@
 <script setup>
-const props = defineProps({
+import { defineProps } from 'vue'
+
+defineProps({
   icon: {
     type: String,
     required: true
