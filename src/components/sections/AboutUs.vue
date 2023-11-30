@@ -82,6 +82,7 @@ import PrimaryBtn from '../__common__/PrimaryBtn.vue'
 }
 
 .tab-call-link {
+  text-align: left;
   display: flex;
   padding: 10px;
   color: #222;
@@ -121,7 +122,7 @@ a.tab-call-link:hover .tab-call-link-title {
 
 @media screen and (max-width: 768px) {
   .container {
-    gap: 20px;
+    gap: 0px;
   }
 
   .about-us-content {
@@ -137,6 +138,7 @@ a.tab-call-link:hover .tab-call-link-title {
     flex-wrap: wrap;
     gap: 0.5rem;
     row-gap: 1.5rem;
+    justify-content: center;
   }
 }
 </style>

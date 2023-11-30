@@ -37,7 +37,7 @@ const props = defineProps({
   margin-right: 1.5rem;
   color: var(--primary-color);
   position: relative;
-  top: .375rem;
+  top: 0.375rem;
 }
 
 .whyus-item-content {
@@ -55,6 +55,16 @@ const props = defineProps({
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-box-orient: vertical;
+}
 
+@media (max-width: 768px) {
+  .whyus-item {
+    flex-direction: column;
+  }
+
+  .whyus-item-icon {
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+  }
 }
 </style>

@@ -137,4 +137,8 @@ h3 {
   h2 {
     font-size: clamp(1.5rem, 5dvw, 1.875rem);
   }
+
+  .container {
+    text-align: center;
+  }
 }
