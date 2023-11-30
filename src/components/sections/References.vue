@@ -47,4 +47,10 @@ h3 {
   filter: grayscale(100%);
   opacity: 0.3;
 }
+
+@media screen and (max-width: 768px) {
+  .references {
+    display: none;
+  }
+}
 </style>

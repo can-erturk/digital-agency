@@ -141,4 +141,14 @@ a.tab-call-link:hover .tab-call-link-title {
     justify-content: center;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .about-us-content {
+    margin-bottom: 0;
+  }
+
+  .about-us-img {
+    display: none;
+  }
+}
 </style>

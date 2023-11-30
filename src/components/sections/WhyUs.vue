@@ -44,7 +44,7 @@ import WhyUsItem from '@/components/ui/WhyUsItem.vue'
   </section>
 </template>
 
-<style scoped>
+<style>
 .whyus-list {
   margin-top: 4.5rem;
   display: grid;
@@ -62,6 +62,11 @@ import WhyUsItem from '@/components/ui/WhyUsItem.vue'
 @media (max-width: 768px) {
   .whyus-list {
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 2.5rem;
+  }
+
+  .whyus-list .whyus-item:is(:nth-last-of-type(1), :nth-last-of-type(2)) {
+    display: none;
   }
 }
 </style>

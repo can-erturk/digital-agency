@@ -69,4 +69,14 @@ defineProps({
     margin-bottom: 1.5rem;
   }
 }
+
+@media (max-width: 576px) {
+  .whyus-item-content h3 {
+    margin-bottom: 0rem;
+  }
+
+  .whyus-item-content p {
+    -webkit-line-clamp: 4;
+  }
+}
 </style>
