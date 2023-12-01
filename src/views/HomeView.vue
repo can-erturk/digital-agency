@@ -4,6 +4,7 @@ import References from '@/components/sections/References.vue'
 import WhyUs from '@/components/sections/WhyUs.vue'
 import AboutUs from '@/components/sections/AboutUs.vue'
 import Services from '@/components/sections/Services.vue'
+import Faqs from '@/components/sections/Faqs.vue'
 </script>
 
 <template>
@@ -12,5 +13,5 @@ import Services from '@/components/sections/Services.vue'
   <WhyUs />
   <AboutUs />
   <Services />
-  <div style="height: 100vh"></div>
+  <Faqs />
 </template>

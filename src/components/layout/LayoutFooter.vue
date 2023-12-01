@@ -52,6 +52,7 @@ footer {
   display: flex;
   flex-direction: column;
   color: #a6b0c2;
+  margin-top: 46px;
 }
 
 .footer-content {
