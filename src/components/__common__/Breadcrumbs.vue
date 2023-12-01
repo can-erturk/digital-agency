@@ -12,7 +12,7 @@ defineProps({
 <template>
   <div class="breadcrumbs">
     <div class="container">
-      <h2>{{ title }}</h2>
+      <h1>{{ title }}</h1>
 
       <div class="route">
         <router-link to="/">Home</router-link>
@@ -25,8 +25,8 @@ defineProps({
 
 <style scoped>
 .breadcrumbs {
-  height: 20rem;
-  background: linear-gradient(to top, var(--bg-secondary), var(--bg-secondary));
+  height: 26rem;
+  background: var(--bg-secondary);
   padding-top: 6rem;
 }
 
