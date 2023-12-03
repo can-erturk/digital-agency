@@ -56,7 +56,7 @@ body > #app {
   position: relative;
 }
 
-body:not(:has(.hero)):not(:has(.breadcrumbs)) > #app {
+body:not(:has(.hero)) > #app {
   padding-top: 6rem;
 }
 

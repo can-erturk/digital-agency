@@ -12,7 +12,7 @@ defineProps({
 <template>
   <div class="breadcrumbs">
     <div class="container">
-      <h1>{{ title }}</h1>
+      <h2>{{ title }}</h2>
 
       <div class="route">
         <router-link to="/">Home</router-link>
@@ -25,9 +25,8 @@ defineProps({
 
 <style scoped>
 .breadcrumbs {
-  height: 26rem;
-  background: var(--bg-secondary);
-  padding-top: 6rem;
+  height: 12rem;
+  background-color: var(--bg-primary);
 }
 
 .breadcrumbs .container {
@@ -35,7 +34,7 @@ defineProps({
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-bottom: 3rem;
+  align-items: center;
 }
 
 .route {
