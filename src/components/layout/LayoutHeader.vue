@@ -2,7 +2,7 @@
 import GlobalNavigation from '@/components/__common__/GlobalNavigation.vue'
 import { ref } from 'vue'
 import { useSidebarStore } from '@/stores/sidebar'
-import LinkBtn from '@/components/__common__/PrimaryBtn.vue'
+import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
 
 const isSticky = ref(false)
 
@@ -30,7 +30,7 @@ const toggleSidebar = () => {
       <!-- Navbar -->
       <div class="navbar">
         <GlobalNavigation />
-        <LinkBtn text="Contact Us" href="/" class="navbar-btn" />
+        <PrimaryBtn text="Contact Us" href="/about#contact-us" class="navbar-btn" />
       </div>
 
       <!-- Sidebar toggle -->

@@ -3,7 +3,7 @@ import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
 </script>
 
 <template>
-  <section class="about-us">
+  <section class="about-us" id="about-us">
     <div class="container">
       <div class="about-us-content">
         <h2>Get information about our company</h2>
@@ -13,8 +13,8 @@ import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
         </p>
 
         <div class="buttons">
-          <PrimaryBtn text="Learn more" href="/" icon="fi-rr-arrow-small-right" />
-          <a href="#" class="tab-call-link">
+          <PrimaryBtn text="Learn more" href="/about#us" icon="fi-rr-arrow-small-right" />
+          <a href="javascript:void(0)" class="tab-call-link">
             <div class="tcl-left">
               <div class="tab-call-link-icon">
                 <i class="fi fi-rr-call-history"></i>

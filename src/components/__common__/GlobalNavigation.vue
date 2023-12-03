@@ -1,6 +1,6 @@
 <template>
-  <router-link to="/">Home</router-link>
-  <router-link to="/">Why Us</router-link>
-  <router-link to="/">About Us</router-link>
-  <router-link to="/">Services</router-link>
+  <a href="/#">Home</a>
+  <a href="/#why-us">Why Us</a>
+  <a href="/#about-us">About Us</a>
+  <a href="/#services">Services</a>
 </template>

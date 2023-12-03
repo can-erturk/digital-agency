@@ -4,17 +4,17 @@ import ServiceItem from '@/components/ui/ServiceItem.vue'
 const services = [
   {
     title: 'Financial Planning',
-    url: '/services/financial-planning',
+    url: '/about#services',
     image: '/services/s10-min.jpg'
   },
   {
     title: 'Wealth Advisory',
-    url: '/services/wealth-advisory',
+    url: '/about#services',
     image: '/services/s5-min.jpg'
   },
   {
     title: 'Retirement Solutions',
-    url: '/services/retirement-solutions',
+    url: '/about#services',
     image: '/services/s7-min.jpg'
   }
 ]

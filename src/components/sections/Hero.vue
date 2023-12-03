@@ -1,5 +1,5 @@
 <script setup>
-import LinkBtn from '@/components/__common__/PrimaryBtn.vue'
+import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
 </script>
 
 <template>
@@ -10,8 +10,8 @@ import LinkBtn from '@/components/__common__/PrimaryBtn.vue'
         <p>
           Enable highly motivating non-cash micropayments and offer in-demand prepaid solutions.
         </p>
-        <LinkBtn text="See More" href="/" icon="fi-rr-arrow-small-right" />
-        <LinkBtn text="Our Services" href="/" icon="fi-rr-arrow-small-right" />
+        <PrimaryBtn text="See More" href="/#about-us" icon="fi-rr-arrow-small-right" />
+        <PrimaryBtn text="Our Services" href="/#services" icon="fi-rr-arrow-small-right" />
       </div>
 
       <img src="/hero-image.webp" alt="hero image" class="hero-img" />
