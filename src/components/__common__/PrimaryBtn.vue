@@ -18,10 +18,10 @@ defineProps({
 </script>
 
 <template>
-  <router-link :to="href" class="btn-primary">
+  <a :href="href" class="btn-primary">
     <span>{{ text }}</span>
     <i v-if="icon" :class="icon"></i>
-  </router-link>
+  </a>
 </template>
 
 <style scoped>
