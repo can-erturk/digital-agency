@@ -16,7 +16,7 @@ import Services from '@/components/sections/__about__/Services.vue'
 <style scoped>
 .row {
   display: flex;
-  gap: 60px;
+  gap: 3.75rem;
   align-items: center;
 }
 

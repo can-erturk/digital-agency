@@ -38,7 +38,7 @@ import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
 <style scoped>
 .container {
   display: flex;
-  gap: 100px;
+  gap: 6.25rem;
   flex-wrap: wrap;
 }
 
@@ -62,18 +62,6 @@ import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
   box-shadow: 15px 15px 12px #00000018;
 }
 
-.backdrop-image {
-  border-radius: 0.875rem;
-  position: absolute;
-  top: 15px;
-  right: -20px;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.5;
-  z-index: -1;
-}
-
 .buttons {
   display: flex;
   gap: 1.5rem;
@@ -84,7 +72,7 @@ import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
 .tab-call-link {
   text-align: left;
   display: flex;
-  padding: 10px;
+  padding: 0.625rem;
   color: #222;
   cursor: pointer;
   gap: 0.875rem;
@@ -100,15 +88,15 @@ a.tab-call-link:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 1.125rem;
   position: relative;
-  top: 3px;
+  top: 0.188rem;
 }
 
 .tab-call-link .tab-call-link-title {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
-  margin-left: 5px;
+  margin-left: 0.313rem;
   opacity: 0.6;
 }
 
@@ -120,9 +108,9 @@ a.tab-call-link:hover .tab-call-link-title {
   font-weight: 500;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .container {
-    gap: 0px;
+    gap: 0;
   }
 
   .about-us-content {
@@ -142,7 +130,7 @@ a.tab-call-link:hover .tab-call-link-title {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .about-us-content {
     margin-bottom: 0;
   }

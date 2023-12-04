@@ -52,6 +52,7 @@ const services = [
 }
 
 .service-item {
+  /* 3.75rem comes from the gap of the .services-list */
   width: calc(33.33333% - calc(3.75rem * 2 / 3));
   text-align: left;
   border: solid 1px #d1d1d1da;
@@ -61,7 +62,7 @@ const services = [
 
 .service-item .service-img {
   width: 100%;
-  height: 200px;
+  height: 12.5rem;
 }
 
 .service-item .service-img img {
@@ -80,12 +81,12 @@ const services = [
 
 @media screen and (max-width: 1024px) {
   .service-item {
-    /* 3.75rem comes from the padding of the services list */
+    /* 3.75rem comes from the gap of the .services-list */
     width: calc(50% - calc(3.75rem / 2));
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .services-list {
     flex-direction: column;
     gap: 1.875rem;

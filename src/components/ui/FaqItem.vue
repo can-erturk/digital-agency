@@ -94,10 +94,10 @@ onUnmounted(() => {
 }
 
 .faq-answer {
-  max-height: 0px;
+  max-height: 0;
   opacity: 0;
   pointer-events: none;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   transition: all 0.2s linear;
 }
 
@@ -106,7 +106,7 @@ onUnmounted(() => {
   pointer-events: all;
   max-height: var(--max-height);
   visibility: visible;
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
 }
 
 .fi-rr-plus-small,
@@ -116,7 +116,7 @@ onUnmounted(() => {
   margin-left: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .faq-item .faq-question {
     padding: 1rem 0.5rem;
   }

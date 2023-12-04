@@ -45,7 +45,7 @@ export default {
 <style scoped>
 .row {
   display: flex;
-  gap: 60px;
+  gap: 3.75rem;
   align-items: center;
 }
 
@@ -87,13 +87,13 @@ p {
   margin-right: 0.5rem;
   color: var(--brand-color);
   position: relative;
-  top: 2px;
+  top: 0.125rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .row {
     flex-direction: column;
-    gap: 0px;
+    gap: 0;
   }
 
   .about-content {
@@ -111,7 +111,7 @@ p {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
   .about-content {
     margin-bottom: 0;
   }

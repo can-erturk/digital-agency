@@ -59,7 +59,7 @@ defineProps({
   -webkit-box-orient: vertical;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .whyus-item {
     flex-direction: column;
   }
@@ -70,7 +70,7 @@ defineProps({
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .whyus-item-content h3 {
     margin-bottom: 0rem;
   }

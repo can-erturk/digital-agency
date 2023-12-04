@@ -48,7 +48,7 @@ h3 {
   opacity: 0.3;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .references {
     display: none;
   }

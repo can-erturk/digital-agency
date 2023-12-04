@@ -52,7 +52,7 @@ footer {
   display: flex;
   flex-direction: column;
   color: #a6b0c2;
-  margin-top: 46px;
+  margin-top: 2.75rem;
 }
 
 .footer-content {
@@ -70,7 +70,7 @@ footer {
   mix-blend-mode: color-burn;
   opacity: 0.35;
   background-repeat: no-repeat;
-  background-position: -280px;
+  background-position: -17.5rem;
   background-size: cover;
   background-size: 100% 100%;
   z-index: -1;
@@ -85,6 +85,8 @@ footer {
   opacity: 0.85;
   margin-bottom: 1.625rem;
   margin-top: 0.25rem;
+  width: 6.875rem;
+  height: 1.563rem;
 }
 
 .footer-content p {
@@ -121,9 +123,26 @@ footer {
   color: #dadbdc;
 }
 
+@media screen and (max-width: 1064px) {
+  .newsletter-col {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 728px) {
-  .footer-content .footer-col.company-col,
-  .footer-content .footer-col.newsletter-col {
+  footer {
+    text-align: center;
+  }
+
+  .footer-content .container {
+    row-gap: 1.875rem;
+  }
+
+  .footer-content .footer-col p {
+    max-width: 100%;
+  }
+
+  .footer-content .footer-col.company-col {
     width: 100%;
     margin-left: 0;
   }
@@ -136,6 +155,7 @@ footer {
     padding: 1.75rem 0;
   }
 }
+
 
 .footer-content .footer-col ul {
   display: flex;
@@ -161,7 +181,7 @@ footer {
   padding: 0.625rem 1rem;
   border-radius: 0.375rem;
   background-color: #dadbdc;
-  min-width: 100px;
+  min-width: 6.25rem;
 }
 
 .newsletter button {

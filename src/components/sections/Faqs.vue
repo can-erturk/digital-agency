@@ -63,18 +63,18 @@ const faqs = [
 }
 
 .faqs .contact {
-  width: 260px;
+  width: 16.25rem;
   flex-shrink: 0;
   text-align: left;
 }
 
 .faqs .contact h3 {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .faqs .contact p {
   font-size: 1rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .faqs .faqs-list {
@@ -102,10 +102,10 @@ const faqs = [
 
   .faqs .faqs-list {
     width: 100%;
-  }  
+  }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .faqs .row {
     margin-top: 1.5rem;
   }

@@ -57,6 +57,7 @@ export default {
 }
 
 .contact-item {
+  /* 3.75rem comes from the gap of the .contact-items */
   width: calc(33.33333% - calc(3.75rem * 2 / 3));
   text-align: left;
   border: solid 1px #d1d1d1da;
@@ -72,7 +73,7 @@ export default {
 .contact-item .contact-name i {
   margin-right: 0.5rem;
   position: relative;
-  top: 2px;
+  top: 0.125rem;
 }
 
 .contact-item .contact-name h3 {
@@ -87,12 +88,12 @@ export default {
 
 @media screen and (max-width: 1024px) {
   .contact-item {
-    /* 3.75rem comes from the padding of the services list */
+    /* 3.75rem comes from the gap of the .contact-items list */
     width: calc(50% - calc(3.75rem / 2));
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .contact-items {
     flex-direction: column;
     gap: 1.875rem;

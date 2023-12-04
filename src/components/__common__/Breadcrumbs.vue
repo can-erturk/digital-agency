@@ -49,12 +49,6 @@ defineProps({
   top: 0.2rem;
 }
 
-@media screen and (max-width: 768px) {
-  .breadcrumbs .container {
-    align-items: center;
-  }
-}
-
 @media screen and (max-width: 640px) {
   .breadcrumbs {
     padding-top: 5rem;

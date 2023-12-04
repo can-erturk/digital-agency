@@ -72,6 +72,11 @@ header .container {
   justify-content: space-between;
 }
 
+header .header-logo img {
+  width: 6.875rem;
+  height: 1.563rem;
+}
+
 header .container .navbar {
   display: flex;
   gap: 1rem;
@@ -95,9 +100,9 @@ header .container .navbar .navbar-btn {
 header .sidebar-toggle {
   display: none;
   cursor: pointer;
-  padding: 10px;
+  padding: 0.625rem;
   position: relative;
-  right: -5px;
+  right: -0.313rem;
 }
 
 @media screen and (max-width: 640px) {
@@ -118,6 +123,7 @@ header .sidebar-toggle {
   }
 
   header .header-logo img {
+    width: 5.5rem;
     height: 1.25rem;
   }
 }

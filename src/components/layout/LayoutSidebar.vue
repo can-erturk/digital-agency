@@ -38,7 +38,7 @@ const sidebar = useSidebarStore()
 .sidebar {
   position: fixed;
   top: 0;
-  right: 0px;
+  right: 0;
   bottom: 0;
   width: 15rem;
   background-color: white;

@@ -29,7 +29,7 @@ defineProps({
 }
 
 .service-item {
-  /* 3.75rem comes from the padding of the services list */
+  /* 3.75rem comes from the gap of the services list */
   width: calc(33.33333% - calc(3.75rem * 2 / 3));
   text-align: left;
   transition: all 0.1s ease-in-out;
@@ -42,7 +42,7 @@ defineProps({
 .service-item img {
   width: 100%;
   margin: 0 auto;
-  border-radius: 12px;
+  border-radius: 0.75rem;
   transition: all 0.1s ease-in-out;
 }
 
@@ -64,18 +64,18 @@ defineProps({
 
 .service-item .learn-more i {
   position: relative;
-  top: 3px;
-  margin-left: 5px;
+  top: 0.188rem;
+  margin-left: 0.313rem;
 }
 
 @media screen and (max-width: 1024px) {
   .service-item {
-    /* 3.75rem comes from the padding of the services list */
-    width: calc(50% - calc(3.75rem  / 2));
+    /* 3.75rem comes from the gap of the services list */
+    width: calc(50% - calc(3.75rem / 2));
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .service-item {
     width: 100%;
     text-align: center;

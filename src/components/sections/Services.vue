@@ -42,7 +42,7 @@ const services = [
   margin-top: 3.125rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .services-list {
     flex-direction: column;
     gap: 1.875rem;

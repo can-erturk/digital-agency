@@ -34,7 +34,7 @@ import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
 }
 
 .btn-primary {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .btn-primary + .btn-primary {

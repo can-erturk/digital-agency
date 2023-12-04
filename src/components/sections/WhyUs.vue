@@ -54,13 +54,6 @@ import WhyUsItem from '@/components/ui/WhyUsItem.vue'
 
 @media (max-width: 1024px) {
   .whyus-list {
-    grid-template-columns: repeat(2, 1fr);
-    grid-row-gap: 3.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .whyus-list {
     grid-template-columns: repeat(1, 1fr);
     margin-top: 2.5rem;
   }
