@@ -1,41 +1,15 @@
-# .
+## About this project
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a front-end project in which I handle both the design and development process together. To easily update all dimensions within the project as needed, 'rem' was used as the unit of measurement instead of 'px' throughout.
 
-## Recommended IDE Setup
+Although it generally includes static elements, I pinned this project because I like its design.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Tests
 
-## Customize configuration
+> - Unit test for the accordions in the FAQs section: [src/components/\_\_tests\_\_/FaqItem.spec.js](https://github.com/can-erturk/vue-digital-agency/tree/main/src/components/__tests__/FaqItem.spec.js)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Live demo & Preview
 
-## Project Setup
+[Click here](https://vue-digital-agency.vercel.app/) to see live demo.
 
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+![Project Preview](public/project-preview.png)
