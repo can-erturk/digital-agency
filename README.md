@@ -10,6 +10,6 @@ Although it generally includes static elements, I pinned this project because I 
 
 ## Live demo & Preview
 
-[Click here](https://vue-digital-agency.vercel.app/) to see live demo.
+[Click here](https://vue-digital-agency.netlify.app/) to see live demo.
 
 ![Project Preview](public/project-preview.png)
