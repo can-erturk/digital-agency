@@ -48,7 +48,7 @@ onUnmounted(() => {
     <!-- Question -->
     <button @click="toggleThis" class="faq-question">
       <i class="fi fi-rr-interrogation"></i>
-      <h4>{{ title }}</h4>
+      <p class="faq-title">{{ title }}</p>
       <i :class="{ 'fi-rr-plus-small': !open, 'fi-rr-minus-small': open }"></i>
     </button>
 
@@ -81,7 +81,7 @@ onUnmounted(() => {
   font-size: 0.7rem;
 }
 
-.faq-question h4 {
+.faq-question .faq-title {
   font-weight: 400;
   font-size: 1rem;
 }
