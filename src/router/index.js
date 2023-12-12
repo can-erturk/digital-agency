@@ -37,7 +37,13 @@ const router = createRouter({
     },
     {
       path: '/:pathMatch(.*)*',
-      redirect: '/'
+      redirect: (to) => {
+        if (to.path.includes('robots.txt')) {
+          return false
+        } else {
+          return '/'
+        }
+      }
     }
   ]
 })
