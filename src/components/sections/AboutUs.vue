@@ -13,8 +13,8 @@ import PrimaryBtn from '@/components/__common__/PrimaryBtn.vue'
         </p>
 
         <div class="buttons">
-          <PrimaryBtn text="Learn more" href="/about#us" icon="fi-rr-arrow-small-right" />
-          <a href="javascript:void(0)" class="tab-call-link">
+          <PrimaryBtn text="About us" href="/about#us" icon="fi-rr-arrow-small-right" />
+          <a href="/about#contact-us" class="tab-call-link">
             <div class="tcl-left">
               <div class="tab-call-link-icon">
                 <i class="fi fi-rr-call-history"></i>

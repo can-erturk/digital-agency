@@ -19,7 +19,7 @@ defineProps({
 
 <template>
   <a :href="href" class="btn-primary">
-    <span>{{ text }}</span>
+    {{ text }}
     <i v-if="icon" :class="icon"></i>
   </a>
 </template>
