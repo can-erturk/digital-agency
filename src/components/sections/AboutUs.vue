@@ -97,7 +97,7 @@ a.tab-call-link:hover {
   font-size: 0.75rem;
   font-weight: 600;
   margin-left: 0.313rem;
-  opacity: 0.6;
+  opacity: 0.65;
 }
 
 a.tab-call-link:hover .tab-call-link-title {

@@ -9,7 +9,7 @@ const sidebar = useSidebarStore()
   <div class="sidebar-group">
     <!-- Mobile sidebar -->
     <aside :class="{ sidebar: true, 'sidebar-open': sidebar.isOpen }">
-      <button class="sidebar-close-btn" @click="sidebar.close">
+      <button class="sidebar-close-btn" @click="sidebar.close" aria-label="Sidebar close button.">
         <i class="fi fi-rr-cross"></i>
       </button>
 
