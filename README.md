@@ -4,10 +4,6 @@ This project is a front-end project in which I handle both the design and develo
 
 Although it generally includes static elements, I pinned this project because I like its design.
 
-## Tests
-
-> Unit test for the accordions in the FAQs section: [src/components/\_\_tests\_\_/FaqItem.spec.js](https://github.com/can-erturk/vue-digital-agency/tree/main/src/components/__tests__/FaqItem.spec.js)
-
 ## See on my portfolio
 
 See this project in my portfolio with this link:
