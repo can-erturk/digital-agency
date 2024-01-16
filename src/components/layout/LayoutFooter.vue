@@ -37,7 +37,7 @@
     </div>
     <div class="footer-copyright">
       <div class="container">
-        <p>Open Source © 2023 | Powered by <a href="https://canerturk.dev">Can Erturk</a></p>
+        <p>2024 © Powered by <a href="https://canerturk.dev">Can Erturk</a></p>
       </div>
     </div>
   </footer>
