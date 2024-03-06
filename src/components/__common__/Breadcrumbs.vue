@@ -12,7 +12,7 @@ defineProps({
 <template>
   <div class="breadcrumbs">
     <div class="container">
-      <h2>{{ title }}</h2>
+      <h1>{{ title }}</h1>
 
       <div class="route">
         <router-link to="/">Home</router-link>
@@ -50,11 +50,6 @@ defineProps({
 }
 
 @media screen and (max-width: 640px) {
-  .breadcrumbs {
-    padding-top: 5rem;
-    height: 15rem;
-  }
-
   .route {
     font-size: 0.875rem;
   }
